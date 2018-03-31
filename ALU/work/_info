@@ -83,15 +83,15 @@ Z20 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_add_su
 l0
 L4
 VLPX]QK]jJRkICMKfk_c;E1
-!s100 UXlDW3<La;:2@Y_n;KX2K2
 R6
 32
-!i10b 1
 Z21 !s108 1522500010.445000
 Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_add_sub.vhd|
 Z23 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_add_sub.vhd|
 R10
 R11
+!s100 UXlDW3<La;:2@Y_n;KX2K2
+!i10b 1
 Aadd_sub_structural
 R1
 R2
@@ -99,12 +99,47 @@ DEx4 work 12 nbit_add_sub 0 22 LPX]QK]jJRkICMKfk_c;E1
 l21
 L13
 VRaJd71<`[61ZRNOkJf7TI3
-!s100 17[>8Sk2MTElK?Ye6]P;N1
 R6
 32
-!i10b 1
 R21
 R22
 R23
+R10
+R11
+!s100 17[>8Sk2MTElK?Ye6]P;N1
+!i10b 1
+Enbit_mux2
+Z24 w1522500935
+R1
+R2
+R3
+Z25 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_mux2.vhd
+Z26 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_mux2.vhd
+l0
+L4
+VST_ongCUG6Wj9FDcMGn442
+!s100 2a^:T1nWgEWTB_bAggVej1
+R6
+32
+!i10b 1
+Z27 !s108 1522500939.763000
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_mux2.vhd|
+Z29 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_mux2.vhd|
+R10
+R11
+Anbit_mux_behavioral
+R1
+R2
+DEx4 work 9 nbit_mux2 0 22 ST_ongCUG6Wj9FDcMGn442
+l10
+L9
+V[JX2PFY41GPFA_ij>BI?G0
+!s100 O?2nY1;giWiDoDT?JD5Dj3
+R6
+32
+!i10b 1
+R27
+R28
+R29
 R10
 R11
