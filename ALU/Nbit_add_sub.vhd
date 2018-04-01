@@ -27,7 +27,7 @@ begin
 	
 		LSB: if i=0 generate
 		FA0: bit_FA port map (	
-		            a(i) , 
+								a(i) , 
 								b_sub(i) ,
 								sub , 
 								res(i) , 
@@ -36,7 +36,7 @@ begin
 		
 		UPPER_BITS: if i>0 generate
 		FAX: bit_FA port map (	
-		            a(i) , 
+								a(i) , 
 								b_sub(i) ,
 								car(i-1) , 
 								res(i) , 

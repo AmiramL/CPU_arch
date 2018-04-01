@@ -1,0 +1,344 @@
+# Compile of bit_FA.vhd was successful.
+# Compile of bit_mux2.vhd was successful.
+# Compile of Nbit_add_sub.vhd was successful.
+# Compile of Nbit_mux2.vhd was successful.
+# Compile of Nbit_SHIFT.vhd was successful.
+# Compile of SHIFT_top.vhd was successful.
+# Compile of First_TB.vhd was successful.
+# 7 compiles, 0 failed with no errors. 
+vsim -gui work.tb_1
+# vsim -gui work.tb_1 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.tb_1(test)
+# Loading work.shift_top(shift_top_arch)
+# Loading work.nbit_shift(shift_arch_behavioral)
+# ** Fatal: (vsim-3348) Port length (8) does not match actual length (16) for port '/tb_1/DUT2/LSB(0)/BIT0/a'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_1/DUT2/LSB(0)/BIT0 File: C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_SHIFT.vhd Line: 6
+# FATAL ERROR while loading design
+# Error loading design
+# Compile of First_TB.vhd failed with 4 errors.
+# Compile of First_TB.vhd failed with 1 errors.
+# Compile of First_TB.vhd was successful.
+# Compile of Nbit_SHIFT.vhd was successful.
+vsim -gui work.tb_1
+# vsim -gui work.tb_1 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.tb_1(test)
+# Loading work.shift_top(shift_top_arch)
+# Loading work.nbit_shift(shift_arch_behavioral)
+# ** Fatal: (vsim-3348) Port length (8) does not match actual length (16) for port '/tb_1/DUT2/LSB(0)/BIT0/a'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_1/DUT2/LSB(0)/BIT0 File: C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_SHIFT.vhd Line: 6
+# FATAL ERROR while loading design
+# Error loading design
+# Compile of First_TB.vhd failed with 1 errors.
+# Compile of bit_FA.vhd was successful.
+# Compile of bit_mux2.vhd was successful.
+# Compile of Nbit_add_sub.vhd was successful.
+# Compile of Nbit_mux2.vhd was successful.
+# Compile of Nbit_SHIFT.vhd was successful.
+# Compile of SHIFT_top.vhd was successful.
+# Compile of First_TB.vhd failed with 1 errors.
+# 7 compiles, 1 failed with 1 error. 
+vsim -gui work.tb_1
+# vsim -gui work.tb_1 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.tb_1(test)
+# Loading work.shift_top(shift_top_arch)
+# Loading work.nbit_shift(shift_arch_behavioral)
+# ** Fatal: (vsim-3348) Port length (8) does not match actual length (16) for port '/tb_1/DUT2/LSB(0)/BIT0/a'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_1/DUT2/LSB(0)/BIT0 File: C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_SHIFT.vhd Line: 6
+# FATAL ERROR while loading design
+# Error loading design
+# Compile of bit_FA.vhd was successful.
+# Compile of bit_mux2.vhd was successful.
+# Compile of Nbit_add_sub.vhd was successful.
+# Compile of Nbit_mux2.vhd was successful.
+# Compile of Nbit_SHIFT.vhd was successful.
+# Compile of SHIFT_top.vhd was successful.
+# Compile of First_TB.vhd was successful.
+# 7 compiles, 0 failed with no errors. 
+vsim -gui work.tb_1
+# vsim -gui work.tb_1 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.tb_1(test)
+# Loading work.shift_top(shift_top_arch)
+# Loading work.nbit_shift(shift_arch_behavioral)
+# ** Fatal: (vsim-3348) Port length (8) does not match actual length (16) for port '/tb_1/DUT2/THRD_BIT(3)/BITi/a'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_1/DUT2/THRD_BIT(3)/BITi File: C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_SHIFT.vhd Line: 6
+# FATAL ERROR while loading design
+# Error loading design
+# Compile of bit_FA.vhd was successful.
+# Compile of bit_mux2.vhd was successful.
+# Compile of Nbit_add_sub.vhd was successful.
+# Compile of Nbit_mux2.vhd was successful.
+# Compile of Nbit_SHIFT.vhd was successful.
+# Compile of SHIFT_top.vhd was successful.
+# Compile of First_TB.vhd was successful.
+# 7 compiles, 0 failed with no errors. 
+vsim -gui work.tb_1
+# vsim -gui work.tb_1 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.tb_1(test)
+# Loading work.shift_top(shift_top_arch)
+# Loading work.nbit_shift(shift_arch_behavioral)
+add wave sim:/tb_1/*
+restart -f; run 600 ns;
+restart -f; run 200 ns;
+restart -f; run 200 ns;
+add wave sim:/tb_1/DUT1/*
+restart -f; run 200 ns;
+# Compile of First_TB.vhd was successful.
+vsim -gui work.tb_1
+# vsim -gui work.tb_1 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.tb_1(test)
+# Loading work.shift_top(shift_top_arch)
+# Loading work.nbit_shift(shift_arch_behavioral)
+add wave sim:/tb_1/DUT1/*
+add wave -position insertpoint sim:/tb_1/*
+add dataflow sim:/tb_1/*
+# WARNING: No extended dataflow license exists
+add wave sim:/tb_1/*
+restart -f; run 200 ns;
+add wave -r sim:/tb_1/DUT1/*
+# Compile of bit_FA.vhd was successful.
+# Compile of bit_mux2.vhd was successful.
+# Compile of Nbit_add_sub.vhd was successful.
+# Compile of Nbit_mux2.vhd was successful.
+# Compile of Nbit_SHIFT.vhd was successful.
+# Compile of SHIFT_top.vhd was successful.
+# Compile of First_TB.vhd was successful.
+# 7 compiles, 0 failed with no errors. 
+vsim -gui work.tb_1
+# vsim -gui work.tb_1 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.tb_1(test)
+# Loading work.shift_top(shift_top_arch)
+# Loading work.nbit_shift(shift_arch_behavioral)
+add wave sim:/tb_1/*
+restart -f; run 200 ns;
+# Compile of bit_FA.vhd was successful.
+# Compile of bit_mux2.vhd was successful.
+# Compile of Nbit_add_sub.vhd was successful.
+# Compile of Nbit_mux2.vhd was successful.
+# Compile of Nbit_SHIFT.vhd was successful.
+# Compile of SHIFT_top.vhd was successful.
+# Compile of First_TB.vhd was successful.
+# 7 compiles, 0 failed with no errors. 
+vsim -gui work.tb_1
+# vsim -gui work.tb_1 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.tb_1(test)
+# Loading work.shift_top(shift_top_arch)
+# Loading work.nbit_shift(shift_arch_behavioral)
+add wave sim:/tb_1/*
+restart -f; run 200 ns;
+add wave sim:/tb_1/DUT1/*
+restart -f; run 500 ns;
+# Compile of bit_FA.vhd was successful.
+# Compile of bit_mux2.vhd was successful.
+# Compile of Nbit_add_sub.vhd was successful.
+# Compile of Nbit_mux2.vhd was successful.
+# Compile of Nbit_SHIFT.vhd was successful.
+# Compile of SHIFT_top.vhd was successful.
+# Compile of First_TB.vhd was successful.
+# 7 compiles, 0 failed with no errors. 
+vsim -gui work.tb_1
+# vsim -gui work.tb_1 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.tb_1(test)
+# Loading work.shift_top(shift_top_arch)
+# Loading work.nbit_shift(shift_arch_behavioral)
+add wave sim:/tb_1/*
+restart -f; run 500 ns;
+add wave sim:/tb_1/DUT1/*
+restart -f; run 500 ns;
+# Compile of bit_FA.vhd was successful.
+# Compile of bit_mux2.vhd was successful.
+# Compile of Nbit_add_sub.vhd was successful.
+# Compile of Nbit_mux2.vhd was successful.
+# Compile of Nbit_SHIFT.vhd was successful.
+# Compile of SHIFT_top.vhd failed with 1 errors.
+# Compile of First_TB.vhd was successful.
+# 7 compiles, 1 failed with 1 error. 
+# Compile of SHIFT_top.vhd failed with 1 errors.
+# Compile of SHIFT_top.vhd was successful.
+vsim -gui work.tb_1
+# vsim -gui work.tb_1 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.tb_1(test)
+# Loading work.shift_top(shift_top_arch)
+# Loading work.nbit_shift(shift_arch_behavioral)
+add wave sim:/tb_1/*
+restart -f; run 500 ns;
+add wave sim:/tb_1/DUT1/*
+# Compile of SHIFT_top.vhd was successful.
+vsim -gui work.tb_1
+# vsim -gui work.tb_1 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.tb_1(test)
+# Loading work.shift_top(shift_top_arch)
+# Loading work.nbit_shift(shift_arch_behavioral)
+add wave sim:/tb_1/DUT1/*
+restart -f; run 500 ns;
+# Compile of SHIFT_top.vhd was successful.
+vsim -gui work.tb_1
+# vsim -gui work.tb_1 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.tb_1(test)
+# Loading work.shift_top(shift_top_arch)
+# Loading work.nbit_shift(shift_arch_behavioral)
+add wave sim:/tb_1/DUT1/*
+restart -f; run 500 ns;
+# Compile of SHIFT_top.vhd was successful.
+vsim -gui work.tb_1
+# vsim -gui work.tb_1 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.tb_1(test)
+# Loading work.shift_top(shift_top_arch)
+# Loading work.nbit_shift(shift_arch_behavioral)
+add wave sim:/tb_1/DUT1/*
+restart -f; run 500 ns;
+# Compile of bit_FA.vhd was successful.
+# Compile of bit_mux2.vhd was successful.
+# Compile of Nbit_add_sub.vhd was successful.
+# Compile of Nbit_mux2.vhd was successful.
+# Compile of Nbit_SHIFT.vhd was successful.
+# Compile of SHIFT_top.vhd was successful.
+# Compile of First_TB.vhd was successful.
+# 7 compiles, 0 failed with no errors. 
+vsim -gui work.tb_1
+# vsim -gui work.tb_1 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.tb_1(test)
+# Loading work.shift_top(shift_top_arch)
+# Loading work.nbit_shift(shift_arch_behavioral)
+add wave sim:/tb_1/DUT1/*
+restart -f; run 500 ns;
+# Compile of First_TB.vhd was successful.
+vsim -gui work.tb_1
+# vsim -gui work.tb_1 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.tb_1(test)
+# Loading work.shift_top(shift_top_arch)
+# Loading work.nbit_shift(shift_arch_behavioral)
+# Compile of bit_FA.vhd was successful.
+# Compile of bit_mux2.vhd was successful.
+# Compile of Nbit_add_sub.vhd was successful.
+# Compile of Nbit_mux2.vhd was successful.
+# Compile of Nbit_SHIFT.vhd was successful.
+# Compile of SHIFT_top.vhd was successful.
+# Compile of First_TB.vhd was successful.
+# 7 compiles, 0 failed with no errors. 
+vsim -gui work.tb_1
+# vsim -gui work.tb_1 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.tb_1(test)
+# Loading work.shift_top(shift_top_arch)
+# Loading work.nbit_shift(shift_arch_behavioral)
+add wave sim:/tb_1/*
+restart -f; run 500 ns;
+# Compile of bit_FA.vhd was successful.
+# Compile of bit_mux2.vhd was successful.
+# Compile of Nbit_add_sub.vhd was successful.
+# Compile of Nbit_mux2.vhd was successful.
+# Compile of Nbit_SHIFT.vhd was successful.
+# Compile of SHIFT_top.vhd failed with 1 errors.
+# Compile of First_TB.vhd was successful.
+# 7 compiles, 1 failed with 1 error. 
+# Compile of SHIFT_top.vhd failed with 1 errors.
+# Compile of bit_FA.vhd was successful.
+# Compile of bit_mux2.vhd was successful.
+# Compile of Nbit_add_sub.vhd was successful.
+# Compile of Nbit_mux2.vhd was successful.
+# Compile of Nbit_SHIFT.vhd was successful.
+# Compile of SHIFT_top.vhd failed with 1 errors.
+# Compile of First_TB.vhd was successful.
+# 7 compiles, 1 failed with 1 error. 
+# Compile of bit_FA.vhd was successful.
+# Compile of bit_mux2.vhd was successful.
+# Compile of Nbit_add_sub.vhd was successful.
+# Compile of Nbit_mux2.vhd was successful.
+# Compile of Nbit_SHIFT.vhd was successful.
+# Compile of SHIFT_top.vhd was successful.
+# Compile of First_TB.vhd was successful.
+# 7 compiles, 0 failed with no errors. 
+vsim -gui work.tb_1
+# vsim -gui work.tb_1 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.tb_1(test)
+# Loading work.shift_top(shift_top_arch)
+# Loading work.nbit_shift(shift_arch_behavioral)
+add wave -position insertpoint sim:/tb_1/*
+restart -f; run 500 ns;
+restart -f; run 500 ns;
+add wave -position insertpoint sim:/tb_1/*
+restart -f; run 500 ns;

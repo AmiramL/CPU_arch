@@ -15,7 +15,7 @@ L5
 V1jkEoaFicG_zbdS[ZOcJV3
 Z6 OV;C;10.1b;51
 32
-Z7 !s108 1522499941.991000
+Z7 !s108 1522604793.415000
 Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/bit_FA.vhd|
 Z9 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/bit_FA.vhd|
 Z10 o-work work -2002 -explicit -O0
@@ -50,7 +50,7 @@ L4
 V7XT9D>j7iVY^nQE6N;f1]2
 R6
 32
-Z15 !s108 1522499942.152000
+Z15 !s108 1522604793.588000
 Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/bit_mux2.vhd|
 Z17 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/bit_mux2.vhd|
 R10
@@ -74,7 +74,7 @@ R11
 !s100 IK7UO`8Y>cITH;OdA[o`51
 !i10b 1
 Enbit_add_sub
-Z18 w1522500006
+Z18 w1522511751
 R1
 R2
 R3
@@ -85,7 +85,7 @@ L4
 VLPX]QK]jJRkICMKfk_c;E1
 R6
 32
-Z21 !s108 1522500010.445000
+Z21 !s108 1522604793.759000
 Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_add_sub.vhd|
 Z23 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_add_sub.vhd|
 R10
@@ -118,15 +118,15 @@ Z26 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_mux2.v
 l0
 L4
 VST_ongCUG6Wj9FDcMGn442
-!s100 2a^:T1nWgEWTB_bAggVej1
 R6
 32
-!i10b 1
-Z27 !s108 1522500939.763000
+Z27 !s108 1522604793.930000
 Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_mux2.vhd|
 Z29 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_mux2.vhd|
 R10
 R11
+!s100 2a^:T1nWgEWTB_bAggVej1
+!i10b 1
 Anbit_mux_behavioral
 R1
 R2
@@ -134,12 +134,122 @@ DEx4 work 9 nbit_mux2 0 22 ST_ongCUG6Wj9FDcMGn442
 l10
 L9
 V[JX2PFY41GPFA_ij>BI?G0
-!s100 O?2nY1;giWiDoDT?JD5Dj3
 R6
 32
-!i10b 1
 R27
 R28
 R29
+R10
+R11
+!s100 O?2nY1;giWiDoDT?JD5Dj3
+!i10b 1
+Enbit_shift
+Z30 w1522601112
+R1
+R2
+R3
+Z31 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_SHIFT.vhd
+Z32 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_SHIFT.vhd
+l0
+L4
+V1NI2?n6?N6^co<eCIhKB20
+R6
+32
+Z33 !s108 1522604794.084000
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_SHIFT.vhd|
+Z35 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_SHIFT.vhd|
+R10
+R11
+!s100 ]<493Nh2ZFB?C3]Ah7;3a2
+!i10b 1
+Ashift_arch_behavioral
+R1
+R2
+DEx4 work 10 nbit_shift 0 22 1NI2?n6?N6^co<eCIhKB20
+l13
+L12
+VWEQS`TX@G[<:ZHKg7on[a0
+R6
+32
+R33
+R34
+R35
+R10
+R11
+!s100 jPf[_Z4N15DdCW4@UK1Zl3
+!i10b 1
+Eshift_top
+Z36 w1522604790
+R1
+R2
+R3
+Z37 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/SHIFT_top.vhd
+Z38 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/SHIFT_top.vhd
+l0
+L4
+VR8fN@NKnaAILUk70eE;?63
+R6
+32
+Z39 !s108 1522604794.255000
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/SHIFT_top.vhd|
+Z41 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/SHIFT_top.vhd|
+R10
+R11
+!s100 6dOhWLR?@eMLCkY7z96143
+!i10b 1
+Ashift_top_arch
+R1
+R2
+Z42 DEx4 work 9 shift_top 0 22 R8fN@NKnaAILUk70eE;?63
+l21
+L12
+V0WcXN9GcZ5YFG;cBUlOfC1
+R6
+32
+R39
+R40
+R41
+R10
+R11
+!s100 i@Qbh>i?K8AbFOHfHze4I0
+!i10b 1
+Etb_1
+Z43 w1522604239
+Z44 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z45 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R1
+R2
+R3
+Z46 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/First_TB.vhd
+Z47 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/First_TB.vhd
+l0
+L7
+V088AVnaBD[YgRH3^Ob:^^3
+!s100 ViO0WmoO>`0YKE?4aIGAh1
+R6
+32
+!i10b 1
+Z48 !s108 1522604794.425000
+Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/First_TB.vhd|
+Z50 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/First_TB.vhd|
+R10
+R11
+Atest
+R42
+R44
+R45
+R1
+R2
+Z51 DEx4 work 4 tb_1 0 22 088AVnaBD[YgRH3^Ob:^^3
+l32
+L10
+Z52 VMWzOd310Q_kHn1cC?[a7N1
+Z53 !s100 m7Lg5GBXEJ=1UADVc`;[^2
+R6
+32
+!i10b 1
+R48
+R49
+R50
 R10
 R11
