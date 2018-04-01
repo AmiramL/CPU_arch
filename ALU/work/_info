@@ -15,7 +15,7 @@ L5
 V1jkEoaFicG_zbdS[ZOcJV3
 Z6 OV;C;10.1b;51
 32
-Z7 !s108 1522604793.415000
+Z7 !s108 1522605868.063000
 Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/bit_FA.vhd|
 Z9 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/bit_FA.vhd|
 Z10 o-work work -2002 -explicit -O0
@@ -50,7 +50,7 @@ L4
 V7XT9D>j7iVY^nQE6N;f1]2
 R6
 32
-Z15 !s108 1522604793.588000
+Z15 !s108 1522605868.204000
 Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/bit_mux2.vhd|
 Z17 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/bit_mux2.vhd|
 R10
@@ -85,7 +85,7 @@ L4
 VLPX]QK]jJRkICMKfk_c;E1
 R6
 32
-Z21 !s108 1522604793.759000
+Z21 !s108 1522605868.356000
 Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_add_sub.vhd|
 Z23 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_add_sub.vhd|
 R10
@@ -95,7 +95,7 @@ R11
 Aadd_sub_structural
 R1
 R2
-DEx4 work 12 nbit_add_sub 0 22 LPX]QK]jJRkICMKfk_c;E1
+Z24 DEx4 work 12 nbit_add_sub 0 22 LPX]QK]jJRkICMKfk_c;E1
 l21
 L13
 VRaJd71<`[61ZRNOkJf7TI3
@@ -109,20 +109,20 @@ R11
 !s100 17[>8Sk2MTElK?Ye6]P;N1
 !i10b 1
 Enbit_mux2
-Z24 w1522500935
+Z25 w1522500935
 R1
 R2
 R3
-Z25 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_mux2.vhd
-Z26 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_mux2.vhd
+Z26 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_mux2.vhd
+Z27 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_mux2.vhd
 l0
 L4
 VST_ongCUG6Wj9FDcMGn442
 R6
 32
-Z27 !s108 1522604793.930000
-Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_mux2.vhd|
-Z29 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_mux2.vhd|
+Z28 !s108 1522605868.507000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_mux2.vhd|
+Z30 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_mux2.vhd|
 R10
 R11
 !s100 2a^:T1nWgEWTB_bAggVej1
@@ -136,28 +136,28 @@ L9
 V[JX2PFY41GPFA_ij>BI?G0
 R6
 32
-R27
 R28
 R29
+R30
 R10
 R11
 !s100 O?2nY1;giWiDoDT?JD5Dj3
 !i10b 1
 Enbit_shift
-Z30 w1522601112
+Z31 w1522601112
 R1
 R2
 R3
-Z31 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_SHIFT.vhd
-Z32 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_SHIFT.vhd
+Z32 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_SHIFT.vhd
+Z33 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_SHIFT.vhd
 l0
 L4
 V1NI2?n6?N6^co<eCIhKB20
 R6
 32
-Z33 !s108 1522604794.084000
-Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_SHIFT.vhd|
-Z35 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_SHIFT.vhd|
+Z34 !s108 1522605868.648000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_SHIFT.vhd|
+Z36 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_SHIFT.vhd|
 R10
 R11
 !s100 ]<493Nh2ZFB?C3]Ah7;3a2
@@ -171,28 +171,28 @@ L12
 VWEQS`TX@G[<:ZHKg7on[a0
 R6
 32
-R33
 R34
 R35
+R36
 R10
 R11
 !s100 jPf[_Z4N15DdCW4@UK1Zl3
 !i10b 1
 Eshift_top
-Z36 w1522604790
+Z37 w1522604790
 R1
 R2
 R3
-Z37 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/SHIFT_top.vhd
-Z38 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/SHIFT_top.vhd
+Z38 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/SHIFT_top.vhd
+Z39 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/SHIFT_top.vhd
 l0
 L4
 VR8fN@NKnaAILUk70eE;?63
 R6
 32
-Z39 !s108 1522604794.255000
-Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/SHIFT_top.vhd|
-Z41 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/SHIFT_top.vhd|
+Z40 !s108 1522605868.795000
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/SHIFT_top.vhd|
+Z42 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/SHIFT_top.vhd|
 R10
 R11
 !s100 6dOhWLR?@eMLCkY7z96143
@@ -200,28 +200,28 @@ R11
 Ashift_top_arch
 R1
 R2
-Z42 DEx4 work 9 shift_top 0 22 R8fN@NKnaAILUk70eE;?63
+Z43 DEx4 work 9 shift_top 0 22 R8fN@NKnaAILUk70eE;?63
 l21
 L12
 V0WcXN9GcZ5YFG;cBUlOfC1
+!s100 i@Qbh>i?K8AbFOHfHze4I0
 R6
 32
-R39
 R40
 R41
+R42
 R10
 R11
-!s100 i@Qbh>i?K8AbFOHfHze4I0
 !i10b 1
 Etb_1
-Z43 w1522604239
-Z44 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
-Z45 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z44 w1522605864
+Z45 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z46 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
 R1
 R2
 R3
-Z46 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/First_TB.vhd
-Z47 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/First_TB.vhd
+Z47 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/First_TB.vhd
+Z48 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/First_TB.vhd
 l0
 L7
 V088AVnaBD[YgRH3^Ob:^^3
@@ -229,27 +229,28 @@ V088AVnaBD[YgRH3^Ob:^^3
 R6
 32
 !i10b 1
-Z48 !s108 1522604794.425000
-Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/First_TB.vhd|
-Z50 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/First_TB.vhd|
+Z49 !s108 1522605868.946000
+Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/First_TB.vhd|
+Z51 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/First_TB.vhd|
 R10
 R11
 Atest
-R42
-R44
+R24
+R43
 R45
+R46
 R1
 R2
-Z51 DEx4 work 4 tb_1 0 22 088AVnaBD[YgRH3^Ob:^^3
-l32
+Z52 DEx4 work 4 tb_1 0 22 088AVnaBD[YgRH3^Ob:^^3
+l39
 L10
-Z52 VMWzOd310Q_kHn1cC?[a7N1
-Z53 !s100 m7Lg5GBXEJ=1UADVc`;[^2
+VbW_LYHFCZPS0;5T;glb113
+!s100 TLB8OeEI1l<]]E?0ZUokn1
 R6
 32
 !i10b 1
-R48
 R49
 R50
+R51
 R10
 R11

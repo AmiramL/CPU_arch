@@ -342,3 +342,5 @@ restart -f; run 500 ns;
 restart -f; run 500 ns;
 add wave -position insertpoint sim:/tb_1/*
 restart -f; run 500 ns;
+restart -f; run 500 ns;
+add wave -position insertpoint sim:/tb_1/*

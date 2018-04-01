@@ -29,17 +29,28 @@ architecture test of TB_1 is
 	signal RL2: std_logic;
 	signal RL3: std_logic;
 	
+	signal A: std_logic_vector(7 downto 0);
+	signal B: std_logic_vector(7 downto 0);
+	signal sub: std_logic;
+	signal res: std_logic_vector(7 downto 0);
+	signal c_out: std_logic;
+	
+	
 	begin
 	
-	DUT1: entity work.SHIFT_top
+	DUT1: entity work.SHIFT_top --SHIFT
 			generic map(N_1)
 			port map (a1, b1, RL1, o1);
-	DUT2: entity work.SHIFT_top
+	DUT2: entity work.SHIFT_top --SHIFT
 			generic map(N_2)
 			port map (a2, b2, RL2, o2);
-  DUT3: entity work.SHIFT_top
+	DUT3: entity work.SHIFT_top --SHIFT
 			generic map(N_3)
-	   	port map (a3, b3, RL3, o3);
+			port map (a3, b3, RL3, o3);
+		
+	DUT4: entity work.Nbit_add_sub
+			generic map(N_1)
+			port map (A, B, sub, res, c_out);
 	
 	
 	simulation1  : process
@@ -53,7 +64,7 @@ architecture test of TB_1 is
 	
 	simulation2  : process
 	begin
-		a2 <= X"AAAA";
+		a2 <= X"FFFF";
 		b2 <= "00111";
 		RL2 <= '0';
 		wait for TIME_DELTA;
@@ -66,4 +77,22 @@ architecture test of TB_1 is
 		RL3 <= '1';
 		wait for TIME_DELTA;
 	end process simulation3;
+	
+	simulation4  : process
+	begin
+	  A <= X"55";
+		B <= X"65";
+		sub <= '0';
+		wait for TIME_DELTA;
+		A <= X"01";
+		B <= X"0A";
+		sub <= '1';
+		wait for TIME_DELTA;
+		A <= X"5A";
+		B <= X"05";
+		sub <= '1';
+		wait for TIME_DELTA;
+	end process simulation4
+		
+		
 	end test;
