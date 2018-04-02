@@ -1,0 +1,53 @@
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.std_logic_arith.ALL;
+
+
+entity TB_2 is
+end TB_2;
+
+architecture test of TB_2 is
+constant N_1 : integer := 8;
+signal clk: std_logic;
+signal En: std_logic;
+signal rst: std_logic;
+signal add_res:	std_logic_vector(7 downto 0);
+signal o: std_logic_vector(15 downto 0);
+signal o_middle: std_logic_vector(7 downto 0);
+signal state_out: std_logic_vector(1 downto 0);
+
+begin
+CLK_PROCESS: process
+begin
+while (0 = 0) loop
+  wait for 5 ns;
+	clk <= '0';
+	wait for 5 ns;
+	clk <= '1';
+end loop;
+end process;
+
+DUT_MAC: entity work.MAC_top
+			generic map (N_1)
+			port map(En,rst,clk,add_res,o, o_middle,state_out);
+			
+			
+simulation1 : process
+	En <= '0';
+	rst <= '1';
+	wait for 17 ns;
+	En <= '1';
+	rst <= '0';
+	add_res <= X"55";
+	wait for 10 ns;
+	add_res <= X"66";
+	wait for 27 ns;
+	rst <= '1';
+	wait for 200 ns;
+end process simulation1;
+	
+	
+	
+end test;
+

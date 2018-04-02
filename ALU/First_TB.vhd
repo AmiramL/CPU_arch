@@ -34,6 +34,7 @@ architecture test of TB_1 is
 	signal sub: std_logic;
 	signal res: std_logic_vector(7 downto 0);
 	signal c_out: std_logic;
+	signal o_mul: std_logic_vector(15 downto 0);
 	
 	
 	begin
@@ -48,10 +49,12 @@ architecture test of TB_1 is
 			generic map(N_3)
 			port map (a3, b3, RL3, o3);
 		
-	DUT4: entity work.Nbit_add_sub
+	DUT4: entity work.Nbit_add_sub --adder subber
 			generic map(N_1)
 			port map (A, B, sub, res, c_out);
-	
+	DUT5: entity work.MUL_top
+      generic map(N_1)
+			port map (A, B, o_mul);
 	
 	simulation1  : process
 	begin
@@ -85,11 +88,19 @@ architecture test of TB_1 is
 		sub <= '0';
 		wait for TIME_DELTA;
 		A <= X"01";
-		B <= X"0A";
+		B <= X"01";
 		sub <= '1';
 		wait for TIME_DELTA;
 		A <= X"5A";
 		B <= X"05";
+		sub <= '1';
+		wait for TIME_DELTA;
+		A <= X"FE";
+		B <= X"FE";
+		sub <= '1';
+		wait for TIME_DELTA;
+		A <= X"FE";
+		B <= X"FF";
 		sub <= '1';
 		wait for TIME_DELTA;
 	end process simulation4;

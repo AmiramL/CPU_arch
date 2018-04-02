@@ -1,5 +1,6 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
+USE iEEE.std_logic_arith.ALL;
 
 entity Nbit_add_sub is 
 generic ( N: integer := 8);
@@ -7,7 +8,7 @@ port( 	a: in std_logic_vector(N-1 downto 0);
 		b: in std_logic_vector(N-1 downto 0);
 		sub: in std_logic;
 		res: out std_logic_vector(N-1 downto 0);
-		c_out: out std_logic );
+		zero: out std_logic );
 end Nbit_add_sub;
 
 architecture add_sub_structural of Nbit_add_sub is
@@ -44,6 +45,13 @@ begin
 		end generate UPPER_BITS;
 	end generate FA_array;
 	
-	c_out <= car(N-1);
+process(a,b,sub)
+  begin
+	if sub = '1' and SIGNED(a) = SIGNED(b) then
+	       zero <= '1';
+	   else
+	       zero <= '0';
+	   end if;  
+end process;
 	
 end add_sub_structural;

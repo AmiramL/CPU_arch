@@ -1,4 +1,104 @@
-{C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_mux2.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_mux2.vhd}
+{C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/First_TB.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/First_TB.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Compiling entity TB_1
+-- Compiling architecture test of TB_1
+-- Loading entity SHIFT_top
+-- Loading entity Nbit_add_sub
+-- Loading entity MUL_top
+
+} {} {}} {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/aruth_top.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/aruth_top.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity arith_top
+-- Compiling architecture arith_arch of arith_top
+
+} {} {}} {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Ndff.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Ndff.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Ndff
+-- Compiling architecture Ndff_struct of Ndff
+
+} {} {}} {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_add_sub.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_add_sub.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity Nbit_add_sub
+-- Compiling architecture add_sub_structural of Nbit_add_sub
+
+} {} {}} {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/tb_2.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/tb_2.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity TB_2
+-- Compiling architecture test of TB_2
+-- Loading entity arith_top
+
+} {} {}} {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/MUL_top.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/MUL_top.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity MUL_top
+-- Compiling architecture MUL_arch of MUL_top
+
+} {} {}} {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/bit_mux2.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/bit_mux2.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity bit_mux2
+-- Compiling architecture bit_mux_behavioral of bit_mux2
+
+} {} {}} {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/mac_top.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/mac_top.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MAC_top
+-- Compiling architecture MAC_struct of MAC_top
+
+} {} {}} {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/bit_FA.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/bit_FA.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity bit_FA
+-- Compiling architecture FA_behavioral of bit_FA
+
+} {} {}} {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/dff.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/dff.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity dff
+-- Compiling architecture dff_behavioral of dff
+
+} {} {}} {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/counter.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/counter.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Ncounter
+-- Compiling architecture rtl of Ncounter
+
+} {} {}} {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_mux2.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_mux2.vhd}
 Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -13,42 +113,6 @@ Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
 -- Loading package std_logic_1164
 -- Compiling entity SHIFT_top
 -- Compiling architecture SHIFT_top_arch of SHIFT_top
-
-} {} {}} {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/First_TB.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/First_TB.vhd}
-Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Loading package std_logic_arith
--- Compiling entity TB_1
--- Compiling architecture test of TB_1
--- Loading entity SHIFT_top
--- Loading entity Nbit_add_sub
-
-} {} {}} {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/bit_FA.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/bit_FA.vhd}
-Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity bit_FA
--- Compiling architecture FA_behavioral of bit_FA
-
-} {} {}} {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/bit_mux2.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/bit_mux2.vhd}
-Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity bit_mux2
--- Compiling architecture bit_mux_behavioral of bit_mux2
-
-} {} {}} {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_add_sub.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_add_sub.vhd}
-Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity Nbit_add_sub
--- Compiling architecture add_sub_structural of Nbit_add_sub
 
 } {} {}} {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_SHIFT.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_SHIFT.vhd}
 Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
