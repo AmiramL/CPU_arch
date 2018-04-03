@@ -85,7 +85,7 @@ architecture test of TB_1 is
 	begin
 	  A <= X"55";
 		B <= X"65";
-		sub <= '0';
+		sub <= '1';
 		wait for TIME_DELTA;
 		A <= X"01";
 		B <= X"01";

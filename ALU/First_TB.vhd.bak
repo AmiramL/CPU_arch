@@ -88,7 +88,7 @@ architecture test of TB_1 is
 		sub <= '0';
 		wait for TIME_DELTA;
 		A <= X"01";
-		B <= X"0A";
+		B <= X"01";
 		sub <= '1';
 		wait for TIME_DELTA;
 		A <= X"5A";
@@ -96,7 +96,7 @@ architecture test of TB_1 is
 		sub <= '1';
 		wait for TIME_DELTA;
 		A <= X"FE";
-		B <= X"02";
+		B <= X"FE";
 		sub <= '1';
 		wait for TIME_DELTA;
 		A <= X"FE";

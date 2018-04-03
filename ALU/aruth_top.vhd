@@ -55,10 +55,12 @@ end component;
 signal MAC2ADD: std_logic_vector(N-1 downto 0);
 signal ADD2MAC: std_logic_vector(N-1 downto 0);
 signal min_max_out: std_logic_vector(N-1 downto 0);
+signal min_out: std_logic_vector(N-1 downto 0);
+signal max_out: std_logic_vector(N-1 downto 0);
 signal sub: std_logic;
 signal eq: std_logic;
 signal add_res: std_logic_vector(N-1 downto 0);
-signal mul_res: std_logic_vector(N-1 downto 0);
+signal mul_res: std_logic_vector(2*N-1 downto 0);
 signal a2add: std_logic_vector(N-1 downto 0);
 signal b2add: std_logic_vector(N-1 downto 0);
 signal mac_op: std_logic;
@@ -66,6 +68,7 @@ signal mac_rst: std_logic;
 signal mac_out: std_logic_vector(2*N-1 downto 0);
 signal mac_state: std_logic_vector(1 downto 0);
 signal mul2add: std_logic_vector(N-1 downto 0);
+signal zeros:std_logic_vector(N-1 downto 0);
 
 
 
@@ -76,6 +79,9 @@ begin
 	mac_op <= OP(2) and OP(0);
 	mac_rst <= OP(2) and OP(0) and OP(1);
 	sub <= OP(1);
+	ZERO_GEN: for i in 0 to N-1 generate
+	zeros(i) <= '0';
+	end generate ZERO_GEN;
 	-- status process
 	process (OP)
 	begin
@@ -100,9 +106,15 @@ begin
 		end case;
 	end process;
 		
+	MIN_MUX: Nbit_mux2
+		generic map(N) ---need to fix!!
+		port map( A, B, add_res(N-1), max_out);
+	MAX_MUX: Nbit_mux2
+		generic map(N) ---need to fix!!
+		port map( B, A, add_res(N-1), min_out);
 	MIN_MAX: Nbit_mux2
-		generic map(N)
-		port map(A,B,add_res(N-1),min_max_out);
+		generic map(N) ---need to fix!!
+		port map( max_out, min_out, OP(0), min_max_out);
 	ADD_SUB: Nbit_add_sub
 		generic map(N)
 		port map(a2add,b2add , sub, add_res, eq);
@@ -114,24 +126,32 @@ begin
 	
 	A2ADD_MUX: Nbit_mux2
 		generic map(N)
-		port map(MAC2ADD,A,mac_op,a2add);
+		port map(A,MAC2ADD,mac_op,a2add);
 	B2ADD_MUX: Nbit_mux2
 		generic map(N)
-		port map(mul2add,B,mac_op,b2add);
+		port map(B,mul2add,mac_op,b2add);
 	
-	process(OP)
+	process(clk,en)
 	begin
+		if en = '1' then
 		case OP is
-			when "001" | "010" => LO <= add_res;
-			when "011" | "110" => LO <= min_max_out;
+			when "001" => LO <= add_res;
+						  HI <= zeros;
+			when "010" => LO <= add_res;
+						  HI <= zeros;
+			when "011" => LO <= min_max_out;
+						  HI <= zeros; 
+			when "110" => LO <= min_max_out;
+						  HI <= zeros;
 			when "1X1" 	=>
 							LO <= mac_out(N-1 downto 0);
 							HI <= mac_out(N-1 downto 0);
 			when "100"  =>
 							LO <= mul_res(N-1 downto 0);
 							HI <= mul_res(N-1 downto 0);
-			when others =>  LO <= "0"; HI <= "0";
+			when others => LO <= zeros ; HI <= zeros;
 		end case;
+		end if;
 	end process;
 	
 		

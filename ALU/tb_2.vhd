@@ -36,15 +36,20 @@ DUT_MAC: entity work.arith_top
 			
 simulation1 : process
 begin
+ 	A  <= X"55";
+	B  <= X"32";
+    OP <= "000";
+  wait for 10 ns;
 	En <= '1';
 	OP <= "001";
-	A  <= X"55";
-	B  <= X"32";
 	wait for 7 ns;
-	OP <= "010";
+	
 	B  <= X"55";
 	wait for 10 ns;
 	B  <= X"65";
+
+	wait for 10 ns;
+		OP <= "010";
 	wait for 10 ns;
 	OP <= "011";
 	wait for 10 ns;
