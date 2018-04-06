@@ -8,7 +8,8 @@ port( 	a: in std_logic_vector(N-1 downto 0);
 		b: in std_logic_vector(N-1 downto 0);
 		sub: in std_logic;
 		res: out std_logic_vector(N-1 downto 0);
-		zero: out std_logic );
+		zero: out std_logic;
+		c_out: out std_logic);
 end Nbit_add_sub;
 
 architecture add_sub_structural of Nbit_add_sub is
@@ -20,6 +21,9 @@ signal car: std_logic_vector(N-1 downto 0);
 signal b_sub: std_logic_vector(N-1 downto 0);
 
 begin
+  
+  c_out <= car(N-1); 
+  	
   B_CONN: for j in 0 to N-1 generate
     b_sub(j) <= b(j) xor sub;
   end generate B_CONN;

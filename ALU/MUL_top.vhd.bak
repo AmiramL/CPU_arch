@@ -1,7 +1,6 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-use IEEE.numeric_std.all;
-USE iEEE.std_logic_arith.ALL;
+USE IEEE.std_logic_arith.ALL;
 
 entity MUL_top is
 generic ( N: integer := 8);
@@ -12,5 +11,8 @@ end MUL_top;
 
 architecture MUL_arch of MUL_top is
 begin
-	o <= signed(a)*signed(b);
+	process(a,b)
+	begin
+	o <= SIGNED(a)*SIGNED(b);
+	end process;
 end MUL_arch;
