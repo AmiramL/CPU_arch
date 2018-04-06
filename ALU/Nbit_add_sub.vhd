@@ -9,7 +9,7 @@ port( 	a: in std_logic_vector(N-1 downto 0);
 		sub: in std_logic;
 		res: out std_logic_vector(N-1 downto 0);
 		zero: out std_logic;
-		c_out: out std_logic);
+		c_out: out std_logic); --for MAC
 end Nbit_add_sub;
 
 architecture add_sub_structural of Nbit_add_sub is
@@ -31,7 +31,7 @@ begin
 	FA_array: for i in 0 to N-1 generate
 	
 		LSB: if i=0 generate
-		FA0: bit_FA port map (	
+			FA0: bit_FA port map (	
 								a(i) , 
 								b_sub(i) ,
 								sub , 
@@ -40,7 +40,7 @@ begin
 		end generate LSB;
 		
 		UPPER_BITS: if i>0 generate
-		FAX: bit_FA port map (	
+			FAX: bit_FA port map (	
 								a(i) , 
 								b_sub(i) ,
 								car(i-1) , 

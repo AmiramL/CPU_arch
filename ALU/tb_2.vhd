@@ -63,10 +63,23 @@ begin
 	wait for 10 ns;
 	OP <= "100";
 	wait for 10 ns;
-	B  <= X"03";
-	wait for 10 ns;
 	OP <= "101";
+	wait for 50 ns;
+	OP <= "000";
+	A <= X"01";
+	B <= X"0F";
+	wait for 12 ns;
+	OP <= "101";
+	wait for 50 ns;
+	OP <= "000";
+	A <= X"06";
+	B <= X"7F";
+	wait for 12 ns;
+	OP <= "101";
+	wait for 50 ns;
+	OP <= "111";
 	wait for 100 ns;
+	
 	
 	
 end process simulation1;

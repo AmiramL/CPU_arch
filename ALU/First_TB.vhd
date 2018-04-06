@@ -36,6 +36,8 @@ architecture test of TB_1 is
 	signal c_out: std_logic;
 	signal o_mul: std_logic_vector(15 downto 0);
 	
+	signal clk:		std_logic;
+	
 	
 	begin
 	
@@ -54,7 +56,18 @@ architecture test of TB_1 is
 			port map (A, B, sub, res, c_out);
 	DUT5: entity work.MUL_top
       generic map(N_1)
-			port map (A, B, o_mul);
+			port map (A, B, clk ,o_mul);
+			
+	CLK_PROCESS: process
+	begin
+		clk <= '0';
+	while (0 = 0) loop
+	  wait for 5 ns;
+		clk <= '1';
+		wait for 5 ns;
+		clk <= '0';
+	end loop;
+	end process;
 	
 	simulation1  : process
 	begin
