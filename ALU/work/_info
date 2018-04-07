@@ -3,513 +3,623 @@ K3
 13
 cModel Technology
 dC:\Users\AmiramL\Desktop
-Earith_top
-Z0 w1523029847
-Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
-Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
-Z3 dC:\Users\AmiramL\Documents\Studies\Year 3\CPU arch\CPU_arch\ALU
-Z4 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/arith_top.vhd
-Z5 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/arith_top.vhd
+Ealu_top
+Z0 w1523102545
+Z1 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\AmiramL\Documents\Studies\Year 3\CPU arch\CPU_arch\ALU
+Z5 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/ALU_top.vhd
+Z6 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/ALU_top.vhd
 l0
-L4
-Vik:XPhT?XieKd@OZ[MTjM1
-Z6 OV;C;10.1b;51
+L5
+VQe9YF]Mg79`e7K6R1DOfZ0
+Z7 OV;C;10.1b;51
 32
-Z7 !s108 1523029855.789000
-Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/arith_top.vhd|
-Z9 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/arith_top.vhd|
-Z10 o-work work -2002 -explicit -O0
-Z11 tExplicit 1
-!s100 _]e]m?kM3kW@Gh[YWl=A93
+Z8 !s108 1523102690.425000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/ALU_top.vhd|
+Z10 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/ALU_top.vhd|
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1
+!s100 13@588DcP2gh@>aHz3[>;3
 !i10b 1
-Aarith_arch
+Aalu_arch
 R1
 R2
-Z12 DEx4 work 9 arith_top 0 22 ik:XPhT?XieKd@OZ[MTjM1
-l92
+R3
+Z13 DEx4 work 7 alu_top 0 22 Qe9YF]Mg79`e7K6R1DOfZ0
+l66
 L18
-VOI7N]NVNmbW22JIK<X7MP2
-R6
-32
+VdRneRnmUYRWC7N`Qa^`[Q1
 R7
+32
 R8
 R9
 R10
 R11
+R12
+!s100 W@2dk9mSSQ>Mz3HA@ejam1
+!i10b 1
+Earith_top
+Z14 w1523029847
+R2
+R3
+R4
+Z15 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/arith_top.vhd
+Z16 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/arith_top.vhd
+l0
+L4
+Vik:XPhT?XieKd@OZ[MTjM1
+R7
+32
+Z17 !s108 1523102689.807000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/arith_top.vhd|
+Z19 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/arith_top.vhd|
+R11
+R12
+!s100 _]e]m?kM3kW@Gh[YWl=A93
+!i10b 1
+Aarith_arch
+R2
+R3
+Z20 DEx4 work 9 arith_top 0 22 ik:XPhT?XieKd@OZ[MTjM1
+l92
+L18
+VOI7N]NVNmbW22JIK<X7MP2
+R7
+32
+R17
+R18
+R19
+R11
+R12
 !s100 o`F]AHdN9QJZXPo>?=jjm3
 !i10b 1
 Ebit_fa
-Z13 w1522745201
-R1
+Z21 w1522745201
 R2
 R3
-Z14 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/bit_FA.vhd
-Z15 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/bit_FA.vhd
+R4
+Z22 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/bit_FA.vhd
+Z23 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/bit_FA.vhd
 l0
 L5
 V1jkEoaFicG_zbdS[ZOcJV3
-R6
+R7
 32
-Z16 !s108 1523029237.563000
-Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/bit_FA.vhd|
-Z18 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/bit_FA.vhd|
-R10
+Z24 !s108 1523102688.632000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/bit_FA.vhd|
+Z26 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/bit_FA.vhd|
 R11
+R12
 !s100 ?S3T1[<ToLak<<HBGjHh32
 !i10b 1
 Afa_behavioral
-R1
 R2
+R3
 DEx4 work 6 bit_fa 0 22 1jkEoaFicG_zbdS[ZOcJV3
 l13
 L12
 V8`bZg5[jPgL[k=:]Re1zk1
-R6
+R7
 32
-R16
-R17
-R18
-R10
+R24
+R25
+R26
 R11
+R12
 !s100 Cz;HjgVzKCkN_nnHnz`zU3
 !i10b 1
 Ebit_mux2
-Z19 w1522497578
-R1
+Z27 w1522497578
 R2
 R3
-Z20 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/bit_mux2.vhd
-Z21 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/bit_mux2.vhd
+R4
+Z28 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/bit_mux2.vhd
+Z29 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/bit_mux2.vhd
 l0
 L4
 V7XT9D>j7iVY^nQE6N;f1]2
-R6
+R7
 32
-Z22 !s108 1523029237.341000
-Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/bit_mux2.vhd|
-Z24 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/bit_mux2.vhd|
-R10
+Z30 !s108 1523102688.430000
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/bit_mux2.vhd|
+Z32 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/bit_mux2.vhd|
 R11
+R12
 !s100 EV[1_B:V:InQQD4nG<FNL3
 !i10b 1
 Abit_mux_behavioral
-R1
 R2
+R3
 DEx4 work 8 bit_mux2 0 22 7XT9D>j7iVY^nQE6N;f1]2
 l9
 L8
 VhS3CbHG84kV9^:>m]:Q^l3
-R6
+R7
 32
-R22
-R23
-R24
-R10
+R30
+R31
+R32
 R11
+R12
 !s100 IK7UO`8Y>cITH;OdA[o`51
 !i10b 1
 Edff
-Z25 w1523009644
-Z26 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z33 w1523009644
 R1
 R2
 R3
-Z27 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/dff.vhd
-Z28 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/dff.vhd
+R4
+Z34 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/dff.vhd
+Z35 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/dff.vhd
 l0
 L5
 VY6QDN71JR=3e38i=_gS[C3
-R6
+R7
 32
-Z29 !s108 1523029236.936000
-Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/dff.vhd|
-Z31 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/dff.vhd|
-R10
+Z36 !s108 1523102688.108000
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/dff.vhd|
+Z38 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/dff.vhd|
 R11
+R12
 !s100 g_3Hg?c64EOgR0TTe6HD@2
 !i10b 1
 Adff_behavioral
-R26
 R1
 R2
+R3
 DEx4 work 3 dff 0 22 Y6QDN71JR=3e38i=_gS[C3
 l14
 L13
 VYW1R^4MLafi0OW0AhXcg<2
-R6
+R7
 32
-R29
-R30
-R31
-R10
+R36
+R37
+R38
 R11
+R12
 !s100 ?RiDNb>nP8UC^P6?`GG0[1
 !i10b 1
 Emac_top
-Z32 w1523029025
-R1
+Z39 w1523029025
 R2
 R3
-Z33 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/mac_top.vhd
-Z34 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/mac_top.vhd
+R4
+Z40 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/mac_top.vhd
+Z41 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/mac_top.vhd
 l0
 L4
 VE>7TK7[EWMA]lDQW^U27e2
-R6
+R7
 32
-Z35 !s108 1523029238.979000
-Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/mac_top.vhd|
-Z37 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/mac_top.vhd|
-R10
+Z42 !s108 1523102689.534000
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/mac_top.vhd|
+Z44 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/mac_top.vhd|
 R11
+R12
 !s100 =5I_l0l@mK@AUIn^Tc[C92
 !i10b 1
 Amac_struct
-R1
 R2
+R3
 DEx4 work 7 mac_top 0 22 E>7TK7[EWMA]lDQW^U27e2
 l32
 L17
 V8]RSkee]Z^hmXj`:[HVE^0
-R6
+R7
 32
-R35
-R36
-R37
-R10
+R42
+R43
+R44
 R11
+R12
 !s100 T1bzQ^3<kk<0?4GY^i=VF0
 !i10b 1
 Emul_top
-Z38 w1523017556
-R26
+Z45 w1523017556
 R1
 R2
 R3
-Z39 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/MUL_top.vhd
-Z40 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/MUL_top.vhd
+R4
+Z46 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/MUL_top.vhd
+Z47 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/MUL_top.vhd
 l0
 L5
 V66m<?zdKgn[;8Z1he@JoH1
-R6
+R7
 32
-Z41 !s108 1523029238.647000
-Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/MUL_top.vhd|
-Z43 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/MUL_top.vhd|
-R10
+Z48 !s108 1523102689.349000
+Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/MUL_top.vhd|
+Z50 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/MUL_top.vhd|
 R11
+R12
 !s100 BE_5R]GK0iOE1@:?I?Ei32
 !i10b 1
 Amul_arch
-R26
-R1
-R2
-Z44 DEx4 work 7 mul_top 0 22 66m<?zdKgn[;8Z1he@JoH1
-l14
-L13
-VWmm[=E;3Q^MjN]YYoQiAK2
-R6
-32
-R41
-R42
-R43
-R10
-R11
-!s100 cl^GV>z5>HHZH:Nj[JB:=1
-!i10b 1
-Enbit_add_sub
-Z45 w1523021408
-R26
 R1
 R2
 R3
-Z46 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_add_sub.vhd
-Z47 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_add_sub.vhd
-l0
-L5
-Vczb2G8_b_HkBbCL8?K6oY3
-R6
-32
-Z48 !s108 1523029237.932000
-Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_add_sub.vhd|
-Z50 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_add_sub.vhd|
-R10
-R11
-!s100 RBaI`8jJ_Kjb3H5L1ClAG3
-!i10b 1
-Aadd_sub_structural
-R26
-R1
-R2
-Z51 DEx4 work 12 nbit_add_sub 0 22 czb2G8_b_HkBbCL8?K6oY3
-l23
-L15
-VYhzQAi6VndoOU;6mb>2XC2
-R6
+Z51 DEx4 work 7 mul_top 0 22 66m<?zdKgn[;8Z1he@JoH1
+l14
+L13
+VWmm[=E;3Q^MjN]YYoQiAK2
+R7
 32
 R48
 R49
 R50
-R10
 R11
-!s100 Ra4?6@g8A?n7j3^]=d]9P3
+R12
+!s100 cl^GV>z5>HHZH:Nj[JB:=1
 !i10b 1
-Enbit_mux2
-Z52 w1522500935
+Enbit_add_sub
+Z52 w1523021408
 R1
 R2
 R3
-Z53 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_mux2.vhd
-Z54 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_mux2.vhd
+R4
+Z53 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_add_sub.vhd
+Z54 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_add_sub.vhd
 l0
-L4
-VST_ongCUG6Wj9FDcMGn442
-R6
+L5
+Vczb2G8_b_HkBbCL8?K6oY3
+R7
 32
-Z55 !s108 1523029238.121000
-Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_mux2.vhd|
-Z57 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_mux2.vhd|
-R10
+Z55 !s108 1523102688.833000
+Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_add_sub.vhd|
+Z57 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_add_sub.vhd|
 R11
-!s100 2a^:T1nWgEWTB_bAggVej1
+R12
+!s100 RBaI`8jJ_Kjb3H5L1ClAG3
 !i10b 1
-Anbit_mux_behavioral
+Aadd_sub_structural
 R1
 R2
-DEx4 work 9 nbit_mux2 0 22 ST_ongCUG6Wj9FDcMGn442
-l10
-L9
-V[JX2PFY41GPFA_ij>BI?G0
-R6
+R3
+Z58 DEx4 work 12 nbit_add_sub 0 22 czb2G8_b_HkBbCL8?K6oY3
+l23
+L15
+VYhzQAi6VndoOU;6mb>2XC2
+R7
 32
 R55
 R56
 R57
-R10
 R11
-!s100 O?2nY1;giWiDoDT?JD5Dj3
+R12
+!s100 Ra4?6@g8A?n7j3^]=d]9P3
 !i10b 1
-Enbit_shift
-Z58 w1522601112
-R1
+Enbit_mux2
+Z59 w1523099376
 R2
 R3
-Z59 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_SHIFT.vhd
-Z60 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_SHIFT.vhd
+R4
+Z60 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_mux2.vhd
+Z61 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_mux2.vhd
+l0
+L4
+VST_ongCUG6Wj9FDcMGn442
+R7
+32
+Z62 !s108 1523102689.034000
+Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_mux2.vhd|
+Z64 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_mux2.vhd|
+R11
+R12
+!s100 P<[nCR2HBHiWA8h<A32Wn0
+!i10b 1
+Anbit_mux_behavioral
+R2
+R3
+DEx4 work 9 nbit_mux2 0 22 ST_ongCUG6Wj9FDcMGn442
+l13
+L12
+V[JX2PFY41GPFA_ij>BI?G0
+R7
+32
+R62
+R63
+R64
+R11
+R12
+!s100 ;4bm5zzkoDDk34K2ghgcU3
+!i10b 1
+Enbit_shift
+Z65 w1522601112
+R2
+R3
+R4
+Z66 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_SHIFT.vhd
+Z67 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_SHIFT.vhd
 l0
 L4
 V1NI2?n6?N6^co<eCIhKB20
-R6
+R7
 32
-Z61 !s108 1523029238.329000
-Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_SHIFT.vhd|
-Z63 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_SHIFT.vhd|
-R10
+Z68 !s108 1523102689.194000
+Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_SHIFT.vhd|
+Z70 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_SHIFT.vhd|
 R11
+R12
 !s100 ]<493Nh2ZFB?C3]Ah7;3a2
 !i10b 1
 Ashift_arch_behavioral
-R1
 R2
+R3
 DEx4 work 10 nbit_shift 0 22 1NI2?n6?N6^co<eCIhKB20
 l13
 L12
 VWEQS`TX@G[<:ZHKg7on[a0
-R6
-32
-R61
-R62
-R63
-R10
-R11
-!s100 jPf[_Z4N15DdCW4@UK1Zl3
-!i10b 1
-Encounter
-Z64 w1522954033
-R26
-Z65 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
-R1
-R2
-R3
-Z66 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/counter.vhd
-Z67 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/counter.vhd
-l0
-L6
-Vez7NWDcJJ6o60`3<J_Ved0
-R6
-32
-Z68 !s108 1523029237.755000
-Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/counter.vhd|
-Z70 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/counter.vhd|
-R10
-R11
-!s100 IYPGg0BRBM[T3<bg`DZ0Y1
-!i10b 1
-Artl
-R26
-R65
-R1
-R2
-DEx4 work 8 ncounter 0 22 ez7NWDcJJ6o60`3<J_Ved0
-l15
-L13
-VZBUNUYR4h=E088LK98Gjf3
-R6
+R7
 32
 R68
 R69
 R70
-R10
 R11
+R12
+!s100 jPf[_Z4N15DdCW4@UK1Zl3
+!i10b 1
+Encounter
+Z71 w1522954033
+R1
+Z72 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+R2
+R3
+R4
+Z73 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/counter.vhd
+Z74 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/counter.vhd
+l0
+L6
+Vez7NWDcJJ6o60`3<J_Ved0
+R7
+32
+Z75 !s108 1523100168.232000
+Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/counter.vhd|
+Z77 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/counter.vhd|
+R11
+R12
+!s100 IYPGg0BRBM[T3<bg`DZ0Y1
+!i10b 1
+Artl
+R1
+R72
+R2
+R3
+DEx4 work 8 ncounter 0 22 ez7NWDcJJ6o60`3<J_Ved0
+l15
+L13
+VZBUNUYR4h=E088LK98Gjf3
+R7
+32
+R75
+R76
+R77
+R11
+R12
 !s100 GPVG?ikDLQNOkMV20I_Oe1
 !i10b 1
 Endff
-Z71 w1522672852
-R1
+Z78 w1522672852
 R2
 R3
-Z72 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Ndff.vhd
-Z73 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Ndff.vhd
+R4
+Z79 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Ndff.vhd
+Z80 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Ndff.vhd
 l0
 L4
 VoQo_H3N8IDFJeh9`k9M@Q2
-R6
+R7
 32
-Z74 !s108 1523029237.127000
-Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Ndff.vhd|
-Z76 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Ndff.vhd|
-R10
+Z81 !s108 1523102688.274000
+Z82 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Ndff.vhd|
+Z83 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Ndff.vhd|
 R11
+R12
 !s100 ^VYXLhaYL:bPO5DHa>^[a2
 !i10b 1
 Andff_struct
-R1
 R2
+R3
 DEx4 work 4 ndff 0 22 oQo_H3N8IDFJeh9`k9M@Q2
 l19
 L13
 VNOSb@^V<lXnZ08`:3IJ7m1
-R6
+R7
 32
-R74
-R75
-R76
-R10
+R81
+R82
+R83
 R11
+R12
 !s100 b5[gQ11lORHW5HI4T3UJ_1
 !i10b 1
-Eshift_top
-Z77 w1522604790
-R1
+Eselect_top
+Z84 w1523099632
 R2
 R3
-Z78 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/SHIFT_top.vhd
-Z79 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/SHIFT_top.vhd
+R4
+Z85 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/select_top.vhd
+Z86 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/select_top.vhd
+l0
+L4
+VNaPb4_gC;;>j3D^`zo1nS2
+R7
+32
+Z87 !s108 1523102690.176000
+Z88 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/select_top.vhd|
+Z89 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/select_top.vhd|
+R11
+R12
+!s100 l5OeN@?kZ2]jA3k7c[`Sn0
+!i10b 1
+Aselect_struct
+R2
+R3
+DEx4 work 10 select_top 0 22 NaPb4_gC;;>j3D^`zo1nS2
+l26
+L15
+VTHS^5AbmM7ae:4_[4:OHY2
+R7
+32
+R87
+R88
+R89
+R11
+R12
+!s100 iPBW`F>HoX]ZHDlmL?V4n2
+!i10b 1
+Eshift_top
+Z90 w1522604790
+R2
+R3
+R4
+Z91 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/SHIFT_top.vhd
+Z92 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/SHIFT_top.vhd
 l0
 L4
 VR8fN@NKnaAILUk70eE;?63
-R6
+R7
 32
-Z80 !s108 1523029238.484000
-Z81 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/SHIFT_top.vhd|
-Z82 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/SHIFT_top.vhd|
-R10
+Z93 !s108 1523102689.961000
+Z94 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/SHIFT_top.vhd|
+Z95 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/SHIFT_top.vhd|
 R11
+R12
 !s100 6dOhWLR?@eMLCkY7z96143
 !i10b 1
 Ashift_top_arch
-R1
 R2
-Z83 DEx4 work 9 shift_top 0 22 R8fN@NKnaAILUk70eE;?63
+R3
+Z96 DEx4 work 9 shift_top 0 22 R8fN@NKnaAILUk70eE;?63
 l21
 L12
 V0WcXN9GcZ5YFG;cBUlOfC1
-R6
+R7
 32
-R80
-R81
-R82
-R10
+R93
+R94
+R95
 R11
+R12
 !s100 i@Qbh>i?K8AbFOHfHze4I0
 !i10b 1
 Etb_1
-Z84 w1523023921
-R26
-Z85 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z97 w1523023921
 R1
+Z98 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
 R2
 R3
-Z86 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/First_TB.vhd
-Z87 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/First_TB.vhd
+R4
+Z99 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/tb_1.vhd
+Z100 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/tb_1.vhd
 l0
 L7
 V088AVnaBD[YgRH3^Ob:^^3
-R6
+R7
 32
-Z88 !s108 1523029238.814000
-Z89 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/First_TB.vhd|
-Z90 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/First_TB.vhd|
-R10
+Z101 !s108 1523102690.727000
+Z102 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/tb_1.vhd|
+Z103 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/tb_1.vhd|
 R11
+R12
 !s100 ViO0WmoO>`0YKE?4aIGAh1
 !i10b 1
 Atest
-R44
 R51
-R83
-R26
-R85
+R58
+R96
 R1
+R98
 R2
+R3
 DEx4 work 4 tb_1 0 22 088AVnaBD[YgRH3^Ob:^^3
 l42
 L10
 VK68X>lA12:Xld548cXB9Y1
-R6
+R7
 32
-R88
-R89
-R90
-R10
+R101
+R102
+R103
 R11
+R12
 !s100 4GAaCWbCFneLl4NYT>DR03
 !i10b 1
 Etb_2
-Z91 w1523029904
-R26
+Z104 w1523029904
 R1
 R2
 R3
-Z92 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/tb_2.vhd
-Z93 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/tb_2.vhd
+R4
+Z105 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/tb_2.vhd
+Z106 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/tb_2.vhd
 l0
 L7
 VL5ZK1l;A?OK`BjSTfPiJ=0
-!s100 ;YfLE@_@RQnIUjO7aOGPK3
-R6
+R7
 32
-!i10b 1
-Z94 !s108 1523029908.319000
-Z95 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/tb_2.vhd|
-Z96 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/tb_2.vhd|
-R10
+Z107 !s108 1523102691.013000
+Z108 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/tb_2.vhd|
+Z109 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/tb_2.vhd|
 R11
-Atest
 R12
-R26
+!s100 ;YfLE@_@RQnIUjO7aOGPK3
+!i10b 1
+Atest
+R20
 R1
 R2
-Z97 DEx4 work 4 tb_2 0 22 L5ZK1l;A?OK`BjSTfPiJ=0
+R3
+DEx4 work 4 tb_2 0 22 L5ZK1l;A?OK`BjSTfPiJ=0
 l22
 L10
 V<KQ7GPn4R4nVBb00MEP>?2
+R7
+32
+R107
+R108
+R109
+R11
+R12
 !s100 ?jh8mP^?12>UOnJSX0eZB1
-R6
+!i10b 1
+Etb_3
+Z110 w1523103702
+R1
+R2
+R3
+R4
+Z111 8C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/tb_3.vhd
+Z112 FC:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/tb_3.vhd
+l0
+L7
+VzNR5`@fN4nG1i@j<Ibd:>3
+!s100 SVhz>]o2LdM;j3a`Gd1oM2
+R7
 32
 !i10b 1
-R94
-R95
-R96
-R10
+Z113 !s108 1523103705.826000
+Z114 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/tb_3.vhd|
+Z115 !s107 C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/tb_3.vhd|
 R11
+R12
+Atest
+R13
+R1
+R2
+R3
+Z116 DEx4 work 4 tb_3 0 22 zNR5`@fN4nG1i@j<Ibd:>3
+l41
+L10
+V:[C;nk=^W`:lM?9UE[JTH1
+!s100 YmaJJ:NV_W[TOD[>[=1SC1
+R7
+32
+!i10b 1
+R113
+R114
+R115
+R11
+R12
