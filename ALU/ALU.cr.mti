@@ -106,13 +106,14 @@ Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
 -- Compiling entity bit_FA
 -- Compiling architecture FA_behavioral of bit_FA
 
-} {} {}} {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_mux2.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_mux2.vhd}
+} {} {}} {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/dff.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/dff.vhd}
 Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity Nbit_mux2
--- Compiling architecture Nbit_mux_behavioral of Nbit_mux2
+-- Loading package std_logic_arith
+-- Compiling entity dff
+-- Compiling architecture dff_behavioral of dff
 
 } {} {}} {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/SHIFT_top.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/SHIFT_top.vhd}
 Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
@@ -122,14 +123,13 @@ Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
 -- Compiling entity SHIFT_top
 -- Compiling architecture SHIFT_top_arch of SHIFT_top
 
-} {} {}} {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/dff.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/dff.vhd}
+} {} {}} {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_mux2.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_mux2.vhd}
 Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Loading package std_logic_arith
--- Compiling entity dff
--- Compiling architecture dff_behavioral of dff
+-- Compiling entity Nbit_mux2
+-- Compiling architecture Nbit_mux_behavioral of Nbit_mux2
 
 } {} {}} {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_SHIFT.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU/Nbit_SHIFT.vhd}
 Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
