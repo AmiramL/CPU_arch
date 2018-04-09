@@ -24,7 +24,8 @@ port (	En:		 	in std_logic;
 		rst:		in std_logic;
 		clk:		in std_logic;
 		add_res:	in std_logic_vector(2*N-1 downto 0);
-		o: 			out std_logic_vector(2*N-1 downto 0));
+		o: 			out std_logic_vector(2*N-1 downto 0);
+		state_out:	out std_logic);
 end component;
 
 component Nbit_add_sub
@@ -36,19 +37,12 @@ port( 	a: in std_logic_vector(2*N-1 downto 0);
 		);
 end component;
 
-component SHIFT_top
-generic ( N: integer := 8);
-port (	a: 			in std_logic_vector(N-1 downto 0);
-		cnt:		in std_logic_vector(4   downto 0);
-		Right_Left: in std_logic;
-		o: 			out std_logic_vector(N-1 downto 0));
-end component;
 
 component MUL_top
 generic ( N: integer := 8);
 port (	a: 			in std_logic_vector(N-1 downto 0);  
 		b: 			in std_logic_vector(N-1 downto 0);
-		o: 		out std_logic_vector(2*N-1 downto 0));
+		o: 			out std_logic_vector(2*N-1 downto 0));
 end component;
 
 component Nbit_mux2
@@ -120,7 +114,7 @@ begin
 				 port map ( A, B, mul_res);		
 				 
 	MAC: MAC_top generic map(N)
-		port map(mac_op, mac_rst, clk, add_res, mac_out);
+		port map(mac_op, mac_rst, clk, add_res, mac_out, mac_state);
 	
 	A2ADD_MUX: Nbit_mux2
 		generic map(2*N)
@@ -152,11 +146,7 @@ begin
 											hi <= zeros; 
 											valid <= '1';
 
-					when  "101" 		=> 	valid <= '0';
-											lo <= mac_out(N-1 downto 0);
-											hi <= mac_out(2*N-1 downto N);
-											
-					when  "111" 		=> 	valid <= '1';
+					when "101" | "111" => 	valid <= mac_state;
 											lo <= mac_out(N-1 downto 0);
 											hi <= mac_out(2*N-1 downto N);
 											
@@ -166,8 +156,6 @@ begin
 					when others => 			lo <= zeros ; hi <= zeros;
 											valid <= '0';
 				end case;
-		elsif falling_edge(clk) AND en = '1' AND OP = "101" then
-				valid <= '1';
 		end if;
 	end process;
 	

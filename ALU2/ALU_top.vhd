@@ -34,7 +34,7 @@ end component;
 component SHIFT_top 
 generic ( N: integer := 8);
 port (	a: 			in std_logic_vector(N-1 downto 0);
-		cnt:		in std_logic_vector(4   downto 0);
+		cnt:		in std_logic_vector(5   downto 0);
 		Right_Left: in std_logic;
 		o: 			out std_logic_vector(N-1 downto 0));
 end component;
@@ -85,7 +85,7 @@ ARITHMETIC_TOP: arith_top
 							status_in);
 SHIFT_U_TOP: SHIFT_top
 				generic map (N)
-				port map(	A, B(4 downto 0),
+				port map(	A, B(5 downto 0),
 							OP(0),
 							shift_out);
 							

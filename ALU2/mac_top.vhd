@@ -7,7 +7,8 @@ port (	En:		 	in std_logic;
 		rst:		in std_logic;
 		clk:		in std_logic;
 		add_res:	in std_logic_vector(2*N-1 downto 0);
-		o: 			out std_logic_vector(2*N-1 downto 0));
+		o: 			out std_logic_vector(2*N-1 downto 0);
+		state_out:	out std_logic);
 end MAC_top;
 
 architecture MAC_struct of MAC_top is
@@ -23,6 +24,7 @@ end component;
 signal HI_out: std_logic_vector(N-1 downto 0);
 signal LO_out: std_logic_vector(N-1 downto 0);
 signal dff_clk: std_logic := '0';
+signal state: std_logic := '0';
 
 begin
 MAC_REG_HI: Ndff generic map(N)
@@ -33,12 +35,17 @@ MAC_REG_LO: Ndff generic map(N)
 
 o(N-1 downto 0)   <= LO_out;
 o(2*N-1 downto N) <= HI_out;
+state_out <= state;
 
 process (clk)
 begin
 		if En = '1' then
 			if rising_edge(clk) then
 				dff_clk <= '0';
+				case state is
+						when '0' 	=> state <= '1';
+						when others => state <= '0';
+				end case;
 			elsif falling_edge(clk) then
 				dff_clk <= '1';
 			end if;
