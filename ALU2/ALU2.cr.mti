@@ -41,6 +41,14 @@ Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
 -- Compiling entity MUL_top
 -- Compiling architecture MUL_arch of MUL_top
 
+} {} {}} {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU2/select_top.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU2/select_top.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity select_top
+-- Compiling architecture select_struct of select_top
+
 } {} {}} {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU2/arith_top.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU2/arith_top.vhd}
 Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
 -- Loading package STANDARD
@@ -49,14 +57,6 @@ Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
 -- Loading package std_logic_arith
 -- Compiling entity arith_top
 -- Compiling architecture arith_arch of arith_top
-
-} {} {}} {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU2/select_top.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU2/select_top.vhd}
-Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity select_top
--- Compiling architecture select_struct of select_top
 
 } {} {}} {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU2/bit_mux2.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU2/bit_mux2.vhd}
 Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
@@ -82,14 +82,17 @@ Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
 -- Compiling entity bit_FA
 -- Compiling architecture FA_behavioral of bit_FA
 
-} {} {}} {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU2/SHIFT_top.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU2/SHIFT_top.vhd}
+} {} {}} {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU2/ALU_tb.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU2/ALU_tb.vhd}
 Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package std_logic_arith
--- Compiling entity SHIFT_top
--- Compiling architecture SHIFT_top_arch of SHIFT_top
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity TB_3
+-- Compiling architecture test of TB_3
+-- Loading entity ALU_top
 
 } {} {}} {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU2/dff.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU2/dff.vhd}
 Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
@@ -99,6 +102,15 @@ Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
 -- Loading package std_logic_arith
 -- Compiling entity dff
 -- Compiling architecture dff_behavioral of dff
+
+} {} {}} {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU2/SHIFT_top.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU2/SHIFT_top.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity SHIFT_top
+-- Compiling architecture SHIFT_top_arch of SHIFT_top
 
 } {} {}} {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU2/Nbit_mux2.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/AmiramL/Documents/Studies/Year 3/CPU arch/CPU_arch/ALU2/Nbit_mux2.vhd}
 Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012

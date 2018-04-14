@@ -1,13 +1,14 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-USE IEEE.std_logic_arith.ALL;
+use ieee.std_logic_unsigned.all;
+use ieee.numeric_std.all;
 
 --Test bench for ALU_TOP
 
-entity TB_3 is
-end TB_3;
+entity TB_ALU is
+end TB_ALU;
 
-architecture test of TB_3 is
+architecture test of TB_ALU is
 
 constant N_1 : integer := 8;
 constant N_2 : integer := 16;
@@ -30,13 +31,13 @@ signal HI2:     	std_logic_vector(15 downto 0);
 signal LO2:     	std_logic_vector(15 downto 0);
 signal status2: 	std_logic_vector(5 downto 0);
 
---signal A3: 			std_logic_vector(31 downto 0);
---signal B3:  		std_logic_vector(31 downto 0);
---signal OP3: 		std_logic_vector(3 downto 0);
---signal valid3: 		std_logic;
---signal HI3:     	std_logic_vector(31 downto 0);
---signal LO3:     	std_logic_vector(31 downto 0);
---signal status3: 	std_logic_vector(5 downto 0);
+signal A3: 			std_logic_vector(31 downto 0);
+signal B3:  		std_logic_vector(31 downto 0);
+signal OP3: 		std_logic_vector(3 downto 0);
+signal valid3: 		std_logic;
+signal HI3:     	std_logic_vector(31 downto 0);
+signal LO3:     	std_logic_vector(31 downto 0);
+signal status3: 	std_logic_vector(5 downto 0);
 
 begin
 
@@ -62,79 +63,47 @@ ALU_16: entity work.ALU_top
 		A2, B2, OP2, clk, valid2, HI2, LO2, status2);
 		
 simulation1 : process
+procedure check_values (
+						HI_e, LO_e, status_e: 	in std_logic_vector;
+						HI_r, LO_r, status_r: 	in std_logic_vector;
+						number:					in integer;
+						valid_r, valid_e: 		in std_logic) 
+						is
+						
+	begin
+		wait for 10 ns;
+		ASSERT valid_r = valid_e REPORT "Test Failed - Valid" SEVERITY error;
+		ASSERT HI_e = HI_r REPORT "Test Failed - HI" SEVERITY error;
+		ASSERT LO_e = LO_r REPORT "Test Failed - LO" SEVERITY error;
+		ASSERT status_e = status_r REPORT "Test Failed - Status" SEVERITY error;
+		
+		REPORT "test Passed" & number;
+		
+	end procedure;
 begin
+	wait for 2 ns;
 	OP1 <= "0000";
-	wait for 12 ns; 
+	check_values(X"00", X"00", "000000", HI1, LO1, status1, 0, '0', valid1); 
 	OP1 <= "0111"; --first op must be RST
 	A1  <= X"00";
 	B1	<= x"00";
-	wait for 10 ns;
-	ASSERT valid1 = '0'
-	REPORT "Test Failed - MAC operations must be 2 cycles"
-	SEVERITY error;
-	wait for 10 ns;
-	ASSERT valid1 = '1'
-	REPORT "Test Failed - MAC Reset Failed - Valid is 0"
-	SEVERITY error;
-	ASSERT LO1 = X"00"
-	REPORT "Test Failed - MAC Reset Failed - LO not 0"
-	SEVERITY error;
-	ASSERT HI1 = X"00"
-	REPORT "Test Failed - MAC Reset Failed - HI not 0"
-	SEVERITY error;
+	check_values(X"00", X"00", "000000", HI1, LO1, status1, 1, '0', valid1);
+	check_values(X"00", X"00", "000000", HI1, LO1, status1, 2, '1', valid1);
 	OP1 <= "0001";
 	for i in 0 to 7 loop
 		A1(i) <= '1';
-		wait for 10 ns;
-		ASSERT valid1 = '1'
-		REPORT "Test Failed - ADD Reset Failed - Valid is 0"
-		SEVERITY error;
-		ASSERT HI1 = X"00"
-		REPORT "Test Failed - ADD Reset Failed - HI not 0"
-		SEVERITY error;
-		ASSERT LO1 = A1
-		REPORT "Test Failed - ADD Reset Failed - LO != A"
-		SEVERITY error;
+		check_values(X"00", A1, "000000", HI1, LO1, status1, 3 + i, '1', valid1);
 	end loop;
 	A1 <= X"00";
 	for i in 0 to 7 loop
 		B1(i) <= '1';
-		wait for 10 ns;
-		ASSERT valid1 = '1'
-		REPORT "Test Failed - ADD Reset Failed - Valid is 0"
-		SEVERITY error;
-		ASSERT HI1 = X"00"
-		REPORT "Test Failed - ADD Reset Failed - HI not 0"
-		SEVERITY error;
-		ASSERT LO1 = B1
-		REPORT "Test Failed - ADD Reset Failed - LO != B"
-		SEVERITY error;
+		check_values(X"00", B1, "000000", HI1, LO1, status1, 11 + i, '1', valid1);
 	end loop;
 	B1 <= X"00";
 	for i in 0 to 7 loop
 		B1(i) <= '1';
 		A1(i) <= '1';
-		wait for 10 ns;
-		ASSERT valid1 = '1'
-		REPORT "Test Failed - ADD Reset Failed - Valid is 0"
-		SEVERITY error;
-		ASSERT HI1 = X"00"
-		REPORT "Test Failed - ADD Reset Failed - HI not 0"
-		SEVERITY error;
-		ASSERT LO1(0) = '0'
-		REPORT "Test Failed - ADD Reset Failed - LO != A+B bit0"
-		SEVERITY error;
-		for j in 1 to 7  loop
-			if j <= i + 1 then
-				ASSERT LO1(j) = '1'
-				REPORT "Test Failed - ADD Reset Failed - LO != A+B 2"
-				SEVERITY error;
-			else
-				ASSERT LO1(j) = '0'
-				REPORT "Test Failed - ADD Reset Failed - LO != A+B, j"
-				SEVERITY error;
-			end if;
-		end loop;
+		check_values(X"00", A1+B1, "000000", HI1, LO1, status1, 19 + i, '1', valid1);
 	end loop;
 	
 	OP1 <= "0010";
